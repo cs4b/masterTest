@@ -1,0 +1,168 @@
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.mypy_cache/
+
+# ============================================================================
+# IDE & Editor
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# Jupyter
+# ============================================================================
+.ipynb_checkpoints/
+# Uncomment the line below if you don't want to track notebooks
+# *.ipynb
+
+# ============================================================================
+# Machine Learning Models & Large Files
+# ============================================================================
+# Model packages (DrugEx)
+*.pkg
+
+# PyTorch models
+*.pt
+*.pth
+
+# Other model formats
+*.h5
+*.pkl
+*.pickle
+*.dill
+
+# NumPy arrays
+*.npy
+*.npz
+
+# TensorFlow/Keras
+*.pb
+*.ckpt
+*.index
+
+# ============================================================================
+# Data Files (Large SMILES/Molecular Data)
+# ============================================================================
+# Large SMILES datasets
+*.smiles
+*.smi
+guacamol_v1_all.smiles
+guacamol_v1_train.smiles
+guacamol_v1_valid.smiles
+guacamol_v1_test.smiles
+guacamol_v1_all_maxmin_order.smiles*
+
+# ============================================================================
+# Generated Results & Runs
+# ============================================================================
+# Optimization results
+results/
+backresults/
+results_*/
+thesis/results/
+thesis/backresults/
+
+# Training runs and checkpoints
+runs/
+**/runs/
+runs_*/
+*.tar.gz
+checkpoints/
+logs/
+
+# Specific large directories
+diverse-hits/runs/
+diverse-hits/optimizers/drugex/models/
+thesis/runs/
+
+# Generated output files
+generated_molecules.smi
+generated_*.csv
+*.log
+*.out
+
+# ============================================================================
+# Conda & Environment
+# ============================================================================
+env.txt
+conda-lock.yml
+pip-freeze.txt
+
+# ============================================================================
+# Git-related
+# ============================================================================
+.git/lfs/
+.gitattributes
+
+# ============================================================================
+# OS-specific
+# ============================================================================
+.env
+.env.local
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# Temporary files
+# ============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# ============================================================================
+# System/IDE generated
+# ============================================================================
+.ipynb_checkpoints/
+.juptyerlab/
+.jupyterlab-settings/
+
+# ============================================================================
+# Build artifacts
+# ============================================================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================================
+# Database files
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
