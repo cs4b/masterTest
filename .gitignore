@@ -84,6 +84,17 @@ guacamol_v1_valid.smiles
 guacamol_v1_test.smiles
 guacamol_v1_all_maxmin_order.smiles*
 
+# Large pretrained data files
+*.tsv              # Large tab-separated data files
+*_smiles.txt       # SMILES data files
+*_frags.*          # Fragment files
+*_PT_smiles.*      # Pretrained SMILES files
+Papyrus*.tsv
+Papyrus*.txt
+*RandomForest*.json    # Large model JSON files
+*.zip              # Zip downloads
+drugexrnn          # Pretrained models
+
 # ============================================================================
 # Generated Results & Runs
 # ============================================================================
@@ -106,7 +117,12 @@ logs/
 diverse-hits/runs/
 diverse-hits/optimizers/drugex/models/
 thesis/runs/
-
+# ============================================================================
+# DUPLICATE DIRECTORIES (nested copies should not be committed)
+# ============================================================================
+thesis/diverse-hits/
+thesis/DrugEx/
+thesis/Drugex/
 # Generated output files
 generated_molecules.smi
 generated_*.csv
