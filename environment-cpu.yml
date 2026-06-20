@@ -1,0 +1,53 @@
+name: nemeth-thesis-cpu
+channels:
+  - defaults
+  - dglteam/label/cu117
+  - conda-forge
+
+dependencies:
+  # Python and core
+  - python=3.11.3
+  - pip
+  - setuptools>=61.0
+  - setuptools_scm[toml]>=6.2
+  
+  # ML/Data Science Core
+  - numpy
+  - scipy==1.11.1
+  - scikit-learn==1.3.0
+  - pandas
+  - matplotlib
+  - seaborn
+  
+  # Chemistry
+  - rdkit
+  - networkx
+  
+  # CPU-only PyTorch (no CUDA)
+  - pytorch::pytorch-cpu=2.0.1
+  - dgl
+  
+  # Other tools
+  - pyyaml
+  - tqdm
+  - pytest
+  
+  - pip:
+    # Additional pip dependencies
+    - charset-normalizer==2.1.0
+    - deepsmiles
+    - selfies
+    - PyTDC
+    - nltk
+    - guacamol
+    - pandas-stubs
+    - joblib
+    - gitpython
+    - requests
+    - jupyterlab
+    - mols2grid
+
+# Notes:
+# - CPU-only version for systems without CUDA GPU
+# - This environment combines requirements from diverse-hits and DrugEx
+# - Use: conda env create -f environment-cpu.yml

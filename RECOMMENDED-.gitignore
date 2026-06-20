@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DMStore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data and Model Files (Large)
+*.pkg           # DrugEx model packages
+*.pt            # PyTorch models
+*.pth           # PyTorch models
+*.h5            # HDF5 models
+*.pkl           # Pickle files
+*.pickle        # Pickle files
+*.npy           # NumPy arrays
+*.smiles        # SMILES data files (can be re-downloaded)
+
+# Data Management
+./results/      # Generated optimization results
+./backresults/  # Backup results
+./results_*     # Results with suffixes
+**/runs/        # Training runs
+
+# Specific Large Files (Already in git)
+./diverse-hits/optimizers/drugex/model_pretraining/Papyrus05.5_graph_trans_PT_smiles.tsv
+./diverse-hits/optimizers/drugex/papyrus_pretrained
+./diverse-hits/data/guacamol_v1_train.smiles
+./diverse-hits/data/guacamol_v1_all.smiles
+./diverse-hits/data/guacamol_v1_all_maxmin_order.smiles
+./Drugex/data/models/qsar/AR_RandomForestMultiTaskRegressor/AR_RandomForestMultiTaskRegressor.json
+./Drugex/data/models/pretrained/graph-trans/Papyrus05.5_graph_trans_PT/model_pretraining/Papyrus05.5_graph_trans_PT_smiles.tsv
+./Drugex/tutorial/data/models/qsar/AR_RandomForestMultiTaskRegressor/AR_RandomForestMultiTaskRegressor.json
+./Drugex/tutorial/data/models/pretrained/graph-trans/Papyrus05.5_graph_trans_PT/model_pretraining/Papyrus05.5_graph_trans_PT_smiles.tsv
+
+# Conda
+env.txt
+conda-lock.yml
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+
+# Generated Output
+generated_molecules.smi
+*.log
+*.out
+
+# Git LFS
+.git/lfs/
