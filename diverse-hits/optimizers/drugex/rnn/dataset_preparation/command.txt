@@ -1,0 +1,1 @@
+python -m drugex.dataset -b data_papyrus05.5_v2 -i test/Papyrus05.5_ALL.smi -o Papyrus05.5 -mt smiles -sm -sv -np 15 -mc Smiles

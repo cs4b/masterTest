@@ -1,0 +1,1 @@
+{"base_dir": ".", "debug": false, "input": "Papyrus05.5_ALL.smi", "output": "Papyrus05.5", "mol_type": "graph", "smiles_corpus": false, "no_fragmentation": false, "frag_method": "brics", "n_frags": 4, "n_combs": 4, "n_proc": 20, "molecule_column": "Smiles", "save_voc": false, "voc_file": null, "save_intermediate_files": false, "no_fragment_split": false, "no_git": false}

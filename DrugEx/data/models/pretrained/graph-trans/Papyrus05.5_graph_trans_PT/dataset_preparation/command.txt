@@ -1,0 +1,1 @@
+python -m drugex.dataset -b data_papyrus05.5 -i Papyrus05.5_ALL.smi -o Papyrus05.5 -mt graph -np 20 -mc Smiles &> dataset_papyrus05.5.log &

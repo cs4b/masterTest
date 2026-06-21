@@ -1,0 +1,1 @@
+python -m drugex.train -b data_papyrus05.5_v2 -i Papyrus05.5 -o Papyrus05.5 -vfs Papyrus05.5 -m PT -v2 -a rnn -gpu 1 -mt smiles -e 1000 -bs 1024

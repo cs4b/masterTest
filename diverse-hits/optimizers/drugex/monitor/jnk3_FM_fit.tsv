@@ -1,0 +1,5 @@
+Epoch	valid_ratio	accurate_ratio	unique_ratio	desired_ratio	avg_amean	avg_gmean	loss_train	best_epoch
+1	1.0	0.98	0.98	0.072	0.064	0.064	0.027	1
+2	1.0	0.962	0.962	0.098	0.07	0.07	0.031	2
+3	1.0	0.968	0.965	0.118	0.084	0.084	0.032	3
+4	1.0	0.982	0.982	0.138	0.085	0.085	0.046	4
